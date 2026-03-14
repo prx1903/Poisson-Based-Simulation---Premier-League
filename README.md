@@ -1,10 +1,8 @@
-# Poisson-Based-Simulation---Premier-League
 # ⚽ Premier League Monte Carlo Simulation
 
 > A probabilistic, player-level simulation framework for the English Premier League, grounded in peer-reviewed sports-science literature.
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://python.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Status: Portfolio Project](https://img.shields.io/badge/Status-Portfolio%20Project-orange)]()
 
 ---
