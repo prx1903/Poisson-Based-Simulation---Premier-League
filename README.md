@@ -125,7 +125,7 @@ away_goals = np.random.poisson(λ_away)
 | Loss streak (1–6 games) | −1.0% to −3.0% | Roebber et al. (2022) |
 | Loss streak (7+ games) | +1.5% (regression) | Audas et al. (2002) |
 | Derby / Top-6 | Stronger ×0.92, Weaker ×1.15 | PL fixture analysis |
-| Red card (after 65') | Sender −30%, Opponent +15% | Červený et al. (2018) |
+| Red card (after 65') | Sender −25%, Opponent +15% | Červený et al. (2018) |
 
 ---
 
@@ -235,7 +235,7 @@ Set `force_rerun=True` in `sim.prepare()` to recompute team stats from scratch a
 
 1. **Career-aggregate data** — The dataset uses cumulative PL career totals. Players who accumulated statistics at stronger former clubs inflate their current team's rating (see: Fulham, 2020-21).
 2. **Pre-season snapshot** — No within-season updates for transfers, injuries, or form changes.
-3. **Poisson independence** — Goals are treated as independent events. The Dixon-Coles low-score correction is not implemented.
+3. **Poisson independence** — Goals are treated as independent events.
 4. **Single-season validation** — 20 teams × 1 season = 20 observations; statistically insufficient for robust p-values. The validation is a calibration check, not a formal significance test.
 
 ---
