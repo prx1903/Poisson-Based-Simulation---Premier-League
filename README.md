@@ -62,7 +62,7 @@ pl-simulation/
 │   ├── simulation.py                # Monte Carlo orchestrator (N seasons)
 │   └── validator.py                 # Backtesting + Brier Score validation
 │
-├── outputs/                         # Auto-generated; git-ignored
+├── outputs/                         
 │   ├── team_stats.csv
 │   ├── player_scores.csv
 │   ├── simulation_summary.csv
@@ -70,15 +70,11 @@ pl-simulation/
 │   └── brier_scores.csv
 │
 ├── docs/
-│   ├── academic_report.docx         # Technical report (CV-grade)
-│   └── study_guide.docx             # Plain-English walkthrough
+│   ├── academic_report.docx        
+│   
 │
-├── tests/
-│   └── test_pipeline.py             # Unit tests (coming soon)
 │
 ├── main.py                          # Entry point
-├── requirements.txt
-├── .gitignore
 └── README.md
 ```
 
