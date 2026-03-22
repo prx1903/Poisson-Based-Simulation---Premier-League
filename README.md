@@ -74,7 +74,8 @@ pl-simulation/
 │   
 │
 │
-├── main.py                          # Entry point
+├── main.py
+├── requirements.txt                       
 └── README.md
 ```
 
