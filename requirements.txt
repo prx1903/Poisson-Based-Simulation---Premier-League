@@ -1,0 +1,8 @@
+# Premier League Monte Carlo Simulation
+# Python 3.10+ required (uses X | Y union type syntax in type hints)
+#
+# Core dependencies only — all other imports (math, enum, pathlib,
+# typing, os) are part of the Python standard library.
+
+pandas>=1.5.0
+numpy>=1.23.0
